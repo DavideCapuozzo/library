@@ -1,0 +1,274 @@
+body{
+    background-color: #F7F2ED;
+}
+
+h2{
+    font-size: 70px;
+}
+
+h3{
+    font-size: 40px;
+}
+
+i{font-size: 30px;}
+
+.container-xxl {
+    max-width: 1400px;
+}
+
+.uno{
+    width: 100px;
+}
+
+.logo-pos{
+    width: 100%;
+    a{
+        color: black;
+        text-decoration: none;
+
+        h4{
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+    }
+}
+
+.user{
+    width: 20%;
+}
+
+#ricercaBannerUno{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+#topSeller{
+    .row{
+        .col{
+            display: contents;
+
+            div{
+                margin-top: 27px;
+            }
+        }
+    }
+}
+
+#month{
+    display: contents;
+
+    div{
+        margin-top: 27px;
+    }
+}
+
+#year{
+    display: contents;
+
+    div{
+        margin-top: 27px;
+    }
+}
+
+.carousel{
+    display: none!important;
+}
+
+.imgClassifica{
+    border-radius: 50px;
+    box-shadow: 7px 5px 5px #b4b4b4;
+    
+    img{
+        width: 220px;
+        height: 370px;
+        border-radius: 5%;
+    }
+}
+
+.classifica{
+    rotate: 90deg;
+    font-weight: 700;
+}
+
+.classificaMobile{
+    font-weight: 700;
+}
+
+#card{
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 50px;
+
+    img{
+        width: 181px!important;
+        height: 251px!important;
+    }
+
+    h5{
+        margin: 20px;
+    }
+
+}
+
+.bannerLibri{
+    background-color: white;
+}
+
+.bannerDue{
+    background-color: white;
+
+    .container-xxl{
+        padding-top: 100px; 
+        padding-bottom: 100px
+    }
+}
+
+#spacer{
+    height: 100px;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+#cerca{
+    background: none;
+    border: 0px;
+}
+
+button{
+    background: none;
+    border: 0px;
+}
+
+.custom-input:focus {
+    background-color: none!important;
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+footer {
+    font-weight: 700;
+    height: 190px;
+    display: flex;
+
+    .container-xxl{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+@media (min-width: 500px) { 
+    #ricercaBannerUno{
+        text-align: center;
+        flex-direction: row;
+    }
+
+    #form{
+        width: 100%;
+    }
+
+    .carousel{
+        display: inline;
+    }
+
+    .bannerDue{
+
+        .container-xxl{
+            text-align:center;
+        }
+
+        p{
+            margin: 0px 50px 0px 50px;
+        }
+    }
+}
+
+@media (max-width: 500px) { 
+
+    #ricercaBannerUno{
+        text-align: center;
+
+        #form{
+            width: 100%;
+        }
+    }
+
+    .bannerDue{
+
+        display: flex; 
+
+        .container-xxl{
+            text-align:center;
+        }
+
+        p{
+            margin: 20px 30px 0px 30px;
+        }
+    }
+}
+
+@media (max-width: 992px) { 
+
+    #topSeller{
+        display: none;
+    }
+
+    .carousel{
+        display: inline!important;
+        padding-top: 100px;
+    }
+
+    .carousel-item{
+        background-color: #F7F2ED;
+    }
+
+    
+    .dueDesk{
+        display: inline!important;
+    } 
+
+}
+
+
+@media (max-width: 1400px) {
+    #rowTopSeller{
+        padding-top: 100px;
+    }
+
+    .dueMobile{
+        display: inline;
+    }
+
+    .dueDesk{
+        display: none;
+    } 
+
+}
+
+@media (min-width: 1400px) {
+
+    .dueMobile{
+        display: inline;
+    }
+
+    .dueDesk{
+        display: none;
+    } 
+
+}
+
+
+
+
+
+
+
+
