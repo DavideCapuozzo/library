@@ -1,15 +1,10 @@
-// Generated using webpack-cli https://github.com/webpack/webpack-cli
-
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const isProduction = process.env.NODE_ENV == 'production';
 
-
 const stylesHandler = isProduction ? MiniCssExtractPlugin.loader : 'style-loader';
-
-
 
 const config = {
     entry: './src/js/index.js',
@@ -18,18 +13,10 @@ const config = {
         filename: '[name].[contenthash].js',
         clean: true
     },
-    /* devServer: {
-        port: 5000,
-        open: true,
-        static: path.resolve(__dirname, 'dist')
-    }, */
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/index.html',
         }),
-
-        // Add your plugins here
-        // Learn more about plugins from https://webpack.js.org/configuration/plugins/
     ],
     module: {
         rules: [
@@ -77,5 +64,5 @@ module.exports = () => {
 };
 
 
-console.log(__dirname);
-console.log(__filename);
+//console.log(__dirname);
+//console.log(__filename);
