@@ -18,11 +18,11 @@ const config = {
         filename: '[name].[contenthash].js',
         clean: true
     },
-    devServer: {
+    /* devServer: {
         port: 5000,
         open: true,
         static: path.resolve(__dirname, 'dist')
-    },
+    }, */
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/index.html',
