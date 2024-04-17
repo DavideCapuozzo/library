@@ -51,8 +51,10 @@ form.addEventListener('submit', function sendResource(event) {
 
     console.log('#### JSON API ####')
     let urlBase = 'https://openlibrary.org/subjects/';
+    let minTesto = testo.value.toLowerCase();
+    
 
-    let urlGet = urlBase+testo.value+'.json'; 
+    let urlGet = urlBase+minTesto+'.json'; 
     container.innerHTML = ''; 
 
     fetch(urlGet)
