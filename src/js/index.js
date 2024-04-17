@@ -104,6 +104,14 @@ form.addEventListener('submit', function sendResource(event) {
 
             titleRespnse.innerHTML = title;
             authorsRespnse.innerHTML = author;
+
+
+            function scrollToBanner() {
+                const bannerElement = document.querySelector('.bannerLibri');
+                if (bannerElement) {
+                    bannerElement.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
             
             console.log('----- TITOLO ---- \n', works[i].title);
             console.log('----- AUTORE ---- \n', works[i].authors[0]['name']);
