@@ -43,6 +43,8 @@ i{font-size: 30px;}
     justify-content: center;
 }
 
+
+
 #topSeller{
     .row{
         .col{
@@ -137,6 +139,10 @@ i{font-size: 30px;}
     height: 50px;
     background-color: white;
     border-radius: 50px;
+
+    img{
+        width: 40px;
+    }
 }
 
 #cerca{
