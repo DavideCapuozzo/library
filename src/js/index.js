@@ -53,6 +53,9 @@ function scrollToBanner() {
 form.addEventListener('submit', function sendResource(event) {
 
     container.style.paddingTop = '100px';
+    scrollToBanner();
+
+    document.getElementById('loader').style.display = 'block';
 
     event.preventDefault(); 
 
@@ -111,8 +114,6 @@ form.addEventListener('submit', function sendResource(event) {
 
             titleRespnse.innerHTML = title;
             authorsRespnse.innerHTML = author;
-
-            scrollToBanner();
             
             console.log('----- TITOLO ---- \n', works[i].title);
             console.log('----- AUTORE ---- \n', works[i].authors[0]['name']);
