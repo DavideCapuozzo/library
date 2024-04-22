@@ -77,7 +77,7 @@ form.addEventListener('submit', function sendResource(event) {
             document.getElementById('loader').style.display = 'none';
             let allert = createElement('h3', 'allert');
             container.appendChild(allert);
-            allert.innerHTML = 'LA RICERCA NON HA RESTITUTITO NESSUN RISULTATO';
+            allert.innerHTML = 'LA RICERCA NON HA RESTITUITO NESSUN RISULTATO';
         }else{
             for (let i = 0; i < works.length; i++) {
                 let title = works[i].title;
