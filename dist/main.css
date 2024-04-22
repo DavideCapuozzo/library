@@ -126,7 +126,6 @@ i{font-size: 30px;}
 }
 
 .loader {
-    padding-top: 100px;
     border: 8px solid #f3f3f3;
     border-radius: 50%;
     border-top: 8px solid #333333;
@@ -134,7 +133,7 @@ i{font-size: 30px;}
     height: 50px;
     animation: spin 1s linear infinite;
     margin: 0 auto;
-    display: none; /* Per nascondere il loader inizialmente */
+    display: none; 
 }
 
 @keyframes spin {
@@ -151,7 +150,7 @@ i{font-size: 30px;}
     height: 50px;
     animation: spin 1s linear infinite;
     margin: 0 auto;
-    display: none; /* Per nascondere il loader inizialmente */
+    display: none; 
 }
 
 @keyframes spin {
