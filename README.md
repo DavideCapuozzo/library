@@ -4,9 +4,9 @@
   <br>
 </h1>
 
-<h4 align="center">A library that relies on the openlibrary.org API<a href="https://counterdev999.netlify.app/" target="_blank"> Try it</a></h4><br>
+<h4 align="center">A library that relies on the openlibrary.org API<a href="https://book999.netlify.app/" target="_blank"> Try it</a></h4><br>
 
-<a href="https://counterdev999.netlify.app/">![Screenshot 2024-04-22 162706](https://github.com/DavideCapuozzo/library/assets/141404327/eaf4cbfd-77ea-4a71-844f-be8d785df65e)
+<a href="https://book999.netlify.app/">![Screenshot 2024-04-22 162706](https://github.com/DavideCapuozzo/library/assets/141404327/eaf4cbfd-77ea-4a71-844f-be8d785df65e)
 </a>
 
 
