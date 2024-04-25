@@ -63,9 +63,10 @@ form.addEventListener('submit', function sendResource(event) {
     let urlBase = 'https://openlibrary.org/subjects/';
     let minTesto = testo.value.toLowerCase();
     
-
+    minTesto = minTesto.replace(/\s/g, '_');
+    
     let urlGet = urlBase+minTesto+'.json'; 
-    container.innerHTML = ''; 
+    container.innerHTML = '';
 
     fetch(urlGet)
     .then(response => response.json())
